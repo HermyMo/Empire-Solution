@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": "1761499329453",
+      "email": "seroganyanemathaba@gmail.com",
+      "name": "Ponagalo",
+      "phone": "0660654010",
+      "notifyBySMS": true,
+      "isVerified": true,
+      "password": "$2b$10$6WvFEHtiLLQPiEvoHTG0CO6dYt7S7tdG9ivL770whKfbTYlZXrSn6",
+      "trustedContacts": [
+        {
+          "id": 1761576638089,
+          "name": "lindo",
+          "phone": "+27829535071",
+          "email": "Lindo7innocencia@gmail.com",
+          "relationship": "Wifey"
+        },
+        {
+          "id": 1761576667786,
+          "name": "Ponagalo",
+          "phone": "+27660654010",
+          "email": "mseroganyane@gmail.com",
+          "relationship": "Me"
+        }
+      ]
+    }
+  ]
+}

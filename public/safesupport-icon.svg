@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SafeSupport">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#0F172A"/>
+  <g transform="translate(64,48)">
+    <!-- Shield -->
+    <path d="M192 0L320 48V176C320 274 261 338 192 368C123 338 64 274 64 176V48L192 0Z" fill="url(#g)"/>
+    <!-- Heart -->
+    <path d="M192 248c-22-30-64-38-88-14-22 22-18 60 8 80 20 16 48 34 80 54 32-20 60-38 80-54 26-20 30-58 8-80-24-24-66-16-88 14z" fill="#fff" fill-opacity="0.95"/>
+  </g>
+</svg>

@@ -1,0 +1,188 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "How are you",
+        "Good morning",
+        "Good evening",
+        "Hi there"
+      ],
+      "responses": [
+        "Hello! I'm SafeSupport Assistant. How can I help you today?",
+        "Hi there! I'm here to provide support and information. What can I help you with?",
+        "Welcome! I'm here to assist you with safety resources and support."
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "I need help",
+        "Emergency",
+        "I'm in danger",
+        "Help me",
+        "I'm not safe",
+        "Someone is hurting me",
+        "I need help now"
+      ],
+      "responses": [
+        "🚨 If you're in immediate danger, please call 10111 (SAPS) or 112 from mobile RIGHT NOW. For GBV support, call 0800 428 428 (24/7). You can also use the EMERGENCY button on this page to send SMS alerts.",
+        "🚨 Your safety is the priority! Call 10111 immediately if you're in danger. The GBV Command Centre is available 24/7 at 0800 428 428. Use the emergency button to alert your contacts."
+      ]
+    },
+    {
+      "tag": "crisis_support",
+      "patterns": [
+        "Crisis hotline",
+        "Who can I call",
+        "Support numbers",
+        "Help numbers",
+        "Crisis support",
+        "Emergency contacts"
+      ],
+      "responses": [
+        "📞 Here are 24/7 crisis support numbers:\n• GBV Command Centre: 0800 428 428\n• SAPS Emergency: 10111 or 112\n• Lifeline SA: 0861 322 322\n• Rape Crisis: 021 447 9762\n\nAll calls are confidential. You can also check the Resources page for more support services."
+      ]
+    },
+    {
+      "tag": "resources",
+      "patterns": [
+        "What resources do you have",
+        "Where can I get help",
+        "Support services",
+        "Resources",
+        "What help is available",
+        "Show me resources"
+      ],
+      "responses": [
+        "I can help you find:\n• Crisis Support (24/7 hotlines)\n• Legal Aid (free legal services)\n• Mental Health Support (counseling)\n• Practical Support (shelters, financial aid)\n\nVisit the Resources page from your dashboard for detailed information with contact details and websites."
+      ]
+    },
+    {
+      "tag": "legal_help",
+      "patterns": [
+        "Legal help",
+        "Lawyer",
+        "Legal advice",
+        "Protection order",
+        "Restraining order",
+        "Legal rights",
+        "Free legal aid"
+      ],
+      "responses": [
+        "⚖️ Legal support available:\n• Legal Aid SA: 0800 110 110 (free legal assistance)\n• Tshwaranang Legal Advocacy: 011 403 4267 (women's legal services)\n• Commission for Gender Equality: 011 403 7182\n\nThey can help with protection orders, legal rights, and court processes. All services are confidential."
+      ]
+    },
+    {
+      "tag": "shelter",
+      "patterns": [
+        "Shelter",
+        "Safe house",
+        "Need somewhere safe",
+        "Place to stay",
+        "Emergency housing",
+        "I need to leave"
+      ],
+      "responses": [
+        "🏠 Emergency shelters available:\n• Nicro Safe Houses: 0800 006 428\n• Department of Social Development: 0800 220 250\n\nThey provide safe housing for women and children escaping violence. Services include meals, counseling, and support. Your information is kept confidential."
+      ]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": [
+        "Counseling",
+        "Therapist",
+        "Mental health",
+        "Depression",
+        "Anxiety",
+        "Trauma",
+        "I'm struggling",
+        "Talk to someone"
+      ],
+      "responses": [
+        "💚 Mental health support:\n• SADAG (Depression/Anxiety): 0800 567 567\n• Trauma Centre CT: 021 465 7373\n• Childline SA: 0800 055 555\n• FAMSA (Family counseling): 011 975 7106\n\nAll services are confidential and specialized in trauma support."
+      ]
+    },
+    {
+      "tag": "financial_help",
+      "patterns": [
+        "Financial help",
+        "Money",
+        "Financial assistance",
+        "Social grant",
+        "SASSA",
+        "I need money"
+      ],
+      "responses": [
+        "💰 Financial assistance:\n• SASSA (Social Grants): 0800 601 011\n• Department of Social Development: 0800 220 250\n\nThey provide emergency financial support, social grants, and can connect you with other assistance programs."
+      ]
+    },
+    {
+      "tag": "safety_tips",
+      "patterns": [
+        "Safety tips",
+        "How to stay safe",
+        "Safety plan",
+        "Protect myself",
+        "Be safe"
+      ],
+      "responses": [
+        "🛡️ Safety tips:\n• Share your location with trusted contacts\n• Keep important documents ready\n• Have an escape plan\n• Use the EMERGENCY button to alert contacts\n• Document incidents safely\n• Trust your instincts\n\nVisit the Resources page for a complete safety planning toolkit."
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "What is SafeSupport",
+        "About this platform",
+        "What do you do",
+        "Tell me about SafeSupport"
+      ],
+      "responses": [
+        "SafeSupport is a confidential platform providing:\n✓ 24/7 emergency support\n✓ Access to crisis hotlines\n✓ Safety resources and information\n✓ Emergency SMS alerts\n✓ Connections to legal, mental health, and practical support\n\nEverything is confidential and designed to keep you safe."
+      ]
+    },
+    {
+      "tag": "confidentiality",
+      "patterns": [
+        "Is this confidential",
+        "Privacy",
+        "Will anyone know",
+        "Is this safe",
+        "Who can see this"
+      ],
+      "responses": [
+        "🔒 Your privacy is protected:\n• All conversations are confidential\n• Your data is secure\n• Support services don't share your information\n• You can exit quickly using the Quick Exit button\n• No one can see your activity without your permission"
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome! I'm here whenever you need support. Stay safe! 💙",
+        "I'm glad I could help. Remember, you're not alone. Take care! 💙"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you",
+        "Talk later"
+      ],
+      "responses": [
+        "Take care and stay safe. I'm here whenever you need me. 💙",
+        "Goodbye! Remember, help is always available 24/7. Stay safe! 💙"
+      ]
+    }
+  ]
+}
